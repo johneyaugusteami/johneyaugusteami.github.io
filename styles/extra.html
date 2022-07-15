@@ -1,46 +1,86 @@
-<!--
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <style>
-        section {
+        section.flex-learning {
             display: flex;
             flex-wrap: wrap;
+            background-color: aqua;
+            width: fit-content
         }
 
-        div {
-            flex-basis: 55%;
-            margin: 20px;
+        div.flex-ex {
+            flex-basis: 25%;
+            margin: 10px;
+            color: blue;
+            background-color: rgb(2, 2, 2);
         }
     </style>
 
+    <style type="text/css">
+        section.grid-learning {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+
+        div.grid-ex {
+            background: #659494;
+            color: white;
+            text-align: center;
+            margin: 15px;
+            padding: 100px;
+        }
+    </style>
+    <!-- Margin defines the outside space
+    padding defines the inside space around an element
+    border defines a border around an object-->
 </head>
 
 <body>
 
-    <section>
+    <section class="flex-learning">
+        <!-- When using flex-based layouts the parents container must first be gived the styling of "display:flex -->
+        <!-- By default, all child elements will fit into one row. If we want the child elements to show on multiple rows, 
+            then we need to add the following style-code: flex-wrap: wrap;" -->
 
-        <div style="color:blue;background-color: rgb(2, 2, 2);">product 1</div>
+        <!--You can think of this as being equivalent to the width in our float-based example.= flex-basis: 25% -->
 
-        <div>product 2</div>
+        <div class="flex-ex">product 1</div>
+        <div class="flex-ex">product 2</div>
+        <div class="flex-ex">product 3</div>
+        <div class="flex-ex">product 4</div>
+        <div class="flex-ex">product 5</div>
+        <div class="flex-ex">product 6</div>
+        <div class="flex-ex">product 7</div>
+        <div class="flex-ex">product 8</div>
 
-        <div>product 3</div>
+    </section>
 
-        <div>product 4</div>
+    <hr>
 
-        <div>product 5</div>
+    <!--To activate a grid layout, we must first apply the following style code to the parent element: display: grid;-->
 
-        <div>product 6</div>
+    <!-- To use the grid-based layout, we need to specify the number, and sizes, of our columns in the grid. 
+        The following code would be used to have four equally spaced columns: grid-template-columns: auto auto auto auto;-->
 
-        <div>product 7</div>
+    <!--When we used float and flex layouts, we had to explicitly set the width of the child elements. With grid-based layouts-
+            we no longer need to do this, at least for simple layouts.-->
 
-        <div>product 8</div>
+
+    <section class="grid-learning">
+        <div class="grid-ex">product 1</div>
+        <div class="grid-ex">product 2</div>
+        <div class="grid-ex">product 3</div>
+        <div class="grid-ex">product 4</div>
+        <div class="grid-ex">product 5</div>
+        <div class="grid-ex">product 6</div>
+        <div class="grid-ex">product 7</div>
+        <div class="grid-ex">product 8</div>
 
     </section>
 
 </body>
 
 </html>
--->
