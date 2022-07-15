@@ -1,12 +1,92 @@
 h2.name-hdr {
     color: white;
+    text-decoration: underline;
+    margin: 15px;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 
+a {
+    float: right;
+    margin: 10px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
 a:hover {
-    color: hotpink;
+    color: rgb(119, 2, 252);
 }
 
 body {
-    background-color: linear-gradient(to bottom, #d03ad5 0%, #d5be3a 90%);
+    background-image: linear-gradient(90deg, #ff40d6, #4604fc);
+}
+
+div.HRF {
+    background-color: rgba(51, 51, 51, 0.70);
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+div.vet {
+    background-color: rgba(51, 51, 51, 0.70);
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+div.CHD {
+    background-color: rgba(51, 51, 51, 0.70);
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+div.PSA {
+    background-color: rgba(51, 51, 51, 0.70);
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+div.kohls {
+    background-color: rgba(51, 51, 51, 0.70);
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+section.ed-sect {
+    background-color: rgba(51, 51, 51, 0.70);
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+div:hover {
+    background-color: #333;
+}
+
+section.ed-sect:hover {
+    background-color: #333
 }
