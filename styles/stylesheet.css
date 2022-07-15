@@ -1,0 +1,12 @@
+h2.name-hdr {
+    color: white;
+}
+
+
+a:hover {
+    color: hotpink;
+}
+
+body {
+    background-color: linear-gradient(to bottom, #d03ad5 0%, #d5be3a 90%);
+}
