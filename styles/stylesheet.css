@@ -32,6 +32,7 @@ a:hover {
 
 body {
     background-image: linear-gradient(90deg, #ff40d6, #4604fc);
+
 }
 
 div.HRF {
@@ -93,4 +94,39 @@ ul.ed-sect:hover {
 
 li.cert {
     margin: 6px;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+p {
+    float: right;
+    margin: 10px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+h1.coming-soon {
+    margin: 30px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgba(51, 51, 51, 0.70);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+h1.coming-soon:hover {
+    background-color: #333
 }
