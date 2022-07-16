@@ -5,6 +5,7 @@ h2.name-hdr {
     float: left;
     display: block;
     text-align: center;
+    padding: 10px;
 }
 
 nav {
@@ -41,7 +42,8 @@ div.HRF {
     color: white;
     border-radius: 15px;
     overflow: hidden;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 
 
@@ -50,7 +52,8 @@ div.vet {
     color: white;
     border-radius: 15px;
     overflow: hidden;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 
 div.CHD {
@@ -58,7 +61,8 @@ div.CHD {
     color: white;
     border-radius: 15px;
     overflow: hidden;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 
 div.PSA {
@@ -66,7 +70,8 @@ div.PSA {
     color: white;
     border-radius: 15px;
     overflow: hidden;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 
 div.kohls {
@@ -74,7 +79,8 @@ div.kohls {
     color: white;
     border-radius: 15px;
     overflow: hidden;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 
 ul.ed-sect {
@@ -82,7 +88,8 @@ ul.ed-sect {
     color: white;
     border-radius: 15px;
     overflow: hidden;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
 }
 
 div:hover {
