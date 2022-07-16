@@ -20,6 +20,10 @@ h2.name-hdr {
     color: white;
 }
 
+h3 {
+    text-decoration-line: underline;
+}
+
 h2.name-hdr::after {
     background: linear-gradient(90deg, #ff40d6, #4604fc);
     content: "";
