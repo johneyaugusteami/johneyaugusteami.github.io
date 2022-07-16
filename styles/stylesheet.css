@@ -1,11 +1,35 @@
+/*
+
+Before: 
+
 h2.name-hdr {
     color: white;
     text-decoration: underline;
+    text-decoration: linear-gradient(90deg, #ff40d6, #4604fc);
     margin: 15px;
     float: left;
     display: block;
     text-align: center;
     padding: 10px;
+}*/
+
+h2.name-hdr {
+    padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+h2.name-hdr::after {
+    background: rgb(140, 0, 255);
+    background: linear-gradient(90deg, #ff40d6, #4604fc);
+    ;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
 }
 
 nav {
@@ -14,6 +38,7 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border: 3px solid rgb(0, 0, 0)
 }
 
 
@@ -47,6 +72,7 @@ div.HRF {
     overflow: hidden;
     margin: 20px;
     padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 
@@ -57,6 +83,7 @@ div.vet {
     overflow: hidden;
     margin: 20px;
     padding: 20px;
+    border: 3px solid rgb(0, 0, 0)
 }
 
 div.CHD {
@@ -66,6 +93,7 @@ div.CHD {
     overflow: hidden;
     margin: 20px;
     padding: 20px;
+    border: 3px solid rgb(0, 0, 0)
 }
 
 div.PSA {
@@ -75,6 +103,7 @@ div.PSA {
     overflow: hidden;
     margin: 20px;
     padding: 20px;
+    border: 3px solid rgb(0, 0, 0)
 }
 
 div.kohls {
@@ -84,6 +113,7 @@ div.kohls {
     overflow: hidden;
     margin: 20px;
     padding: 20px;
+    border: 3px solid rgb(0, 0, 0)
 }
 
 ul.ed-sect {
@@ -93,6 +123,7 @@ ul.ed-sect {
     overflow: hidden;
     margin: 20px;
     padding: 30px;
+    border: 3px solid rgb(0, 0, 0)
 }
 
 div:hover {
@@ -113,6 +144,7 @@ footer {
     overflow: hidden;
     background-color: #333;
     border-radius: 15px;
+    border: 3px solid rgb(0, 0, 0)
 }
 
 p {
