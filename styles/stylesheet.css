@@ -47,18 +47,22 @@ nav {
 
 
 a {
+    font-weight: bold;
     float: right;
     margin: 10px;
     color: white;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
     display: block;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
 a:hover {
     color: rgb(119, 2, 252);
+    background-color: rgb(34, 34, 34);
 }
 
 body {
