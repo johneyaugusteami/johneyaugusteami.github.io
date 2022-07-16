@@ -21,7 +21,6 @@ h2.name-hdr {
 }
 
 h2.name-hdr::after {
-    background: rgb(140, 0, 255);
     background: linear-gradient(90deg, #ff40d6, #4604fc);
     ;
     content: "";
