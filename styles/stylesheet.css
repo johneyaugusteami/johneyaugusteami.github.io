@@ -13,15 +13,13 @@ h2.name-hdr {
     padding: 10px;
 }*/
 
+
+/* Below is the styling for my H2 in the Header; the :: after pseudoselector creates a line under the h2 */
 h2.name-hdr {
     padding-bottom: 4px;
     position: relative;
     text-decoration: none;
     color: white;
-}
-
-h3 {
-    text-decoration-line: underline;
 }
 
 h2.name-hdr::after {
@@ -32,6 +30,10 @@ h2.name-hdr::after {
     left: 0;
     height: 2px;
     width: 20%;
+}
+
+h3 {
+    text-decoration-line: underline;
 }
 
 nav {
