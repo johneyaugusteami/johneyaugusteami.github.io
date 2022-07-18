@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online clothes store website</title>
+    <meta name="description" content="A activity for practice//an online store for a clothing store">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        header,
+        nav,
+        section,
+        main,
+        footer {
+            background: #659494;
+            border-radius: 5px;
+            color: white;
+            font-family: arial, sans-serif;
+            font-size: 30px;
+            text-align: center;
+            border: 1px solid gray;
+            padding: 20px;
+            margin: 25px;
+        }
+
+        /*Header,nav,section,main, and footer all have a blue background,a solid 1px thick grey border with a curvature of 5px,
+        a font of arial with a back up of sans-serif, the text is white and the text size is 30 pixels,
+        the text is aligned in the center of the container,and the padding(distance between words and container border) is 20pixels,
+        and the margin(distance between the outter side of the border to other containers/elements.) */
+
+        header:before,
+        nav:before,
+        footer:before {
+            content: '*';
+        }
+
+        /* Set so there is a * at the start of the selected elements*/
+        header:after,
+        nav:after,
+        footer:after {
+            content: '*';
+        }
+
+        /* Set so there is a * at the end of the selected elements*/
+
+        main {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        /*set the layout as grid*/
+        /* no , between auto's ~*/
+
+        div {
+            border: 2px solid white;
+            padding: 30px;
+            margin: 10px;
+        }
+
+        /* 2pixel thick white solid border & 30 pixels between words & border, 10 pixels between outside of border and other elements.*/
+    </style>
+
+</head>
+
+<body>
+    <header>Header</header>
+    <nav> Nav </nav>
+
+    <section>Image carousel</section>
+
+    <main>
+        <div>Product 1</div>
+        <div>Product 2</div>
+        <div>Product 3</div>
+        <div>Product 4</div>
+    </main>
+
+    <footer> Footer </footer>
+</body>
+
+
+</html>

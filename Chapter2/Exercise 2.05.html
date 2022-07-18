@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Video store product page</title>
+
+    <style>
+        header,
+        nav,
+        section,
+        footer {
+            background: #659494;
+            border-radius: 5px;
+            color: white;
+            font-family: arial, sans-serif;
+            font-size: 30px;
+            text-align: center;
+            /* The header,nav,section & footer will be styled as having a blue background, a border radius(border edge curvature) of 5pixels,
+the color of the text will be white, the font will be arial with sans-serif as a backup, the size of the text will be 30 pixels,
+the text will be aligned in the center of its container. */
+        }
+
+        header:before,
+        nav:before,
+        footer:before {
+            content: '*';
+        }
+
+        header:after,
+        nav:after,
+        footer:after {
+            content: '*';
+        }
+
+
+        header,
+        nav,
+        section,
+        footer {
+            border: 1px solid gray;
+            padding: 20px;
+            margin-bottom: 25px;
+            /*The header,nav,sections,and footer will all have the styling of having a solid gray border that is 1 pixel thick,
+            a padding(distance between words&border) of 20 pixels & a bottom margin of 25 pixels to spave between the next container under it.  */
+        }
+
+
+        section {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            /*Section will have a grid layout. and the :auto auto auto auto; will automatically create rows*/
+        }
+
+        section div {
+            border: 2px solid white;
+            padding: 30px;
+            margin: 10px;
+            /* the div's inside the section will all have a solid white 2 pixel thick border,
+a padding (distance between words and border) of 30 pixels,
+and a margin (space outside of border(container distance from other things))*/
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>header</header>
+
+    <nav>nav</nav>
+
+    <section>
+
+        <div>product 1</div>
+        <div>product 2</div>
+        <div>product 3</div>
+        <div>product 4</div>
+        <div>product 5</div>
+        <div>product 6</div>
+        <div>product 7</div>
+        <div>product 8</div>
+
+    </section>
+
+    <footer>footer</footer>
+
+</body>
+
+</html>
