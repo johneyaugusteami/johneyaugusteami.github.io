@@ -26,14 +26,27 @@
         nav:before,
         section:before,
         footer:before {
-            content: '<';
+            content: '*';
         }
 
         header:after,
         nav:after,
         section:after,
         footer:after {
-            content: '>';
+            content: '*';
+        }
+
+        /* CSS code above */
+
+        header,
+        nav,
+        section,
+        footer {
+            border: 1px solid gray;
+            padding: 50px;
+            margin-bottom: 25px;
+            /*The header,nav,sections,& footer will all have a solid border than is 1 pixel thick, a padding(distance between words&border, 
+            & a margin (distance between bottom of border & other elements.*/
         }
     </style>
 
