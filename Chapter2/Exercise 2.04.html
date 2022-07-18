@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Video store home page</title>
+
+    <style>
+        header,
+        nav,
+        section,
+        footer {
+            background: #659494;
+            border-radius: 5px;
+            color: white;
+            font-family: arial, sans-serif;
+            font-size: 30px;
+            text-align: center;
+            /* The Header,nav,sections&footer are defined as having a blue-ish background, the curvature of the edges of the border are 5 pixels;
+            the color of text is white, the font of the text is Arial, and if arial fails for the user (sans-serif),the side of the text is 30 pixels;
+            The text is aligned in the center of their containers.*/
+        }
+
+        header:before,
+        nav:before,
+        section:before,
+        footer:before {
+            content: '<';
+        }
+
+        header:after,
+        nav:after,
+        section:after,
+        footer:after {
+            content: '>';
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>header</header>
+    <nav>nav</nav>
+    <section>main content</section>
+    <footer>footer</footer>
+
+</body>
+
+</html>

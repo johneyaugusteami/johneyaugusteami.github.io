@@ -70,7 +70,7 @@ body {
 
 }
 
-/* CLasses for div's were not actually necessary but add as a good practice.
+/* CLasses for div's were not actually necessary nor were the div.classnames; just using .classname would have worked as well.
  // because the styling for all the divs are the same. */
 
 div.HRF {
