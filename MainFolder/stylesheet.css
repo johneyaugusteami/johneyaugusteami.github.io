@@ -19,11 +19,11 @@ h2.name-hdr {
 h2.name-hdr {
     padding-bottom: 4px;
     position: relative;
-    bottom: 10px;
-    right: 25px;
+    bottom: 0px;
     text-decoration: none;
     color: white;
-    float: left;
+    display: flex;
+    flex: auto;
 }
 
 h2.name-hdr::after {
@@ -33,7 +33,7 @@ h2.name-hdr::after {
     bottom: 0;
     left: 0;
     height: 2px;
-    width: 40%;
+    width: 12%;
 }
 
 h3 {
