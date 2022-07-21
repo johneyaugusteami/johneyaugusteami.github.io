@@ -23,7 +23,7 @@ h2.name-hdr {
     text-decoration: none;
     color: white;
     display: flex;
-    flex: auto;
+    flex-wrap: wrap;
 }
 
 h2.name-hdr::after {
@@ -91,11 +91,13 @@ img {
 
 section.bio {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     overflow: hidden;
     border: black solid 3px;
     border-radius: 15px;
     background-color: rgba(51, 51, 51, 0.70);
+    text-align: center;
 }
 
 section.bio:hover {
