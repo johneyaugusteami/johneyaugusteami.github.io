@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms</title>
+    <meta name="description" content="A HTML page practicing and learning the forms elements & its attributes">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        h1 {
+            text-decoration: solid underline;
+        }
+
+        body {
+            background-color: lightblue;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <header>
+        <h1>All About Forms!</h1>
+    </header>
+    <hr>
+
+    <!--The form element requires you to pass two attributes, which are the action and method attributes. 
+        The action attribute allows the developer to specify the URL where the form data will go to after it has been submitted. 
+        The method attribute allows the developer to specify whether the form data should be sent via get or post. 
+        You will typically use the get method when you are dealing with unsecured data since the data will be present in a query string. 
+        On the other hand, the post method is typically used when dealing with secure data, or when dealing with a large amount of soft data. 
+        The following code snippet shows an example of what an empty form would look like in HTML:-->
+
+    <!--
+    <form action="url_to_send_form_data" method="post">
+
+    **form elements go here**
+
+    </form>
+        -->
+
+
+    <section>
+        <h4>A form with input text fields</h4>
+
+        <!--The input element requires two attributes, which are type and name. 
+            The type attribute is used to specify what type of input you want, such as radio buttons, checkboxes, or text. 
+            The name attribute gives the element a unique name that is required when submitting the form-->
+
+        <form>
+            <label for="fname">First name:</label><br>
+            <!--label for the input-->
+            <input type="text" id="fname" name="fname"><br>
+            <!--type= defines the type of input, ID= must match the for= associated with it. -->
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <p>A form to choose your favorite Web language:</p>
+        <!--This type of input is a radio buttom-->
+        <form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <!-- input includes: Type= (type of input) , ID= , name= (the question) , & value= (the answer)-->
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
+    </section>
+
+    <hr>
+
+</body>
+
+
+</html>
