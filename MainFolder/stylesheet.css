@@ -141,7 +141,8 @@ section.WE {
     margin: 10px;
     padding: 10px;
     border: 3px solid rgb(0, 0, 0);
-    flex-basis: 350px;
+    width: 390px;
+    height: 480px;
 }
 
 
