@@ -42,7 +42,7 @@
         -->
 
 
-    <section>
+    <section class="text_input">
         <h4>A form with input text fields</h4>
 
         <!--The input element requires two attributes, which are type and name. 
@@ -61,7 +61,7 @@
 
     <hr>
 
-    <section>
+    <section class="radio_button">
         <p>A form to choose your favorite Web language:</p>
         <!--This type of input is a radio buttom-->
         <form>
@@ -73,6 +73,9 @@
             <input type="radio" id="javascript" name="fav_language" value="JavaScript">
             <label for="javascript">JavaScript</label>
         </form>
+        <p>When using radio buttons, you will give all of them the same value for the name attribute since there can
+            only be one value selected. You will, however, need to give each radio button a unique value attribute. <br>
+            A common use case for radio buttons is when selecting a delivery option when ordering online.</p>
     </section>
     <hr>
 
@@ -91,23 +94,147 @@
 -->
 
 
-    <!--
-    
-    <form action="url_to_send_form_data" method="post">
-        <div>
-            <input type="checkbox" name="color1" value="red" /> Red
-        </div>
+    <section class="checkbox">
+        <form action="url_to_send" method="post">
+            <div>
+                <input type="checkbox" name="color1" value="red" /> Red
+            </div>
+            <!--Which is right?? with /> or just > ??? because both work-->
+            <div>
+                <input type="checkbox" name="color2" value="green"> Green
+            </div>
 
-        <div>
-            <input type="checkbox" name="color2" value="green" /> Green
-        </div>
+            <div>
+                <input type="checkbox" name="color3" value="blue"> Blue
+            </div>
+        </form>
+        <p>With checkboxes, you can select multiple values at a time. A common use case for checkboxes is when selecting
+            multiple filters to search results.</p>
+    </section>
+    <hr>
 
-        <div>
-             <input type="checkbox" name="color3" value="blue" /> Blue
-        </div>..
-    </form>
-        ^ create a checkbox input
--->
+    <section class="label">
+        <form action="url_to_send" method="post">
+            <div>
+                <label for="first_name">First name:</label> <br />
+                <input type="text" name="firstname" id="first_name">
+            </div>
+            <div>
+                <label for="last_name">Last name:</label> <br />
+                <input type="text" name="lastname" id="last_name">
+            </div>
+        </form>
+        <p>The label element allows us to associate a piece of text with a form element and allows us to select the form
+            element by clicking on the text.</p>
+        <p>The label element has an attribute called <b>for</b>, which we need to give the <b>id</b> for the element we
+            wish
+            to
+            associate the label with.</p>
+    </section>
+    <hr>
+
+    <section class="text_area">
+        <form action="url_to_send" method="post">
+
+            <div>
+                <label for="first_name">First name:</label><br />
+                <input type="text" name="firstname" id="first_name">
+            </div>
+
+            <div>
+                <label for="last_name">Last name:</label><br />
+                <input type="text" name="lastname" id="last_name">
+            </div>
+
+            <div>
+                <label for="message">Message:</label><br />
+                <textarea id="message" cols="20" rows="10"></textarea>
+            </div>
+        </form>
+
+        <hr>
+        <br>
+
+        <section class="field_set">
+
+            <form action="url_to_send" method="post">
+                <fieldset>
+                    <div>
+                        <label for="first_name">First name:</label><br />
+                        <input type="text" name="firstname" id="first_name">
+                    </div>
+
+                    <div>
+                        <label for="last_name">Last name:</label><br />
+                        <input type="text" name="lastname" id="last_name">
+                    </div>
+
+                    <div>
+                        <label for="message">Message:</label><br />
+                        <textarea id="message" cols="30" rows="10"></textarea>
+                        <p>Fieldsets help to section forms ^ see the border around this?</p>
+                    </div>
+                </fieldset>
+
+                <p>Do you like HTML?</p>
+                <fieldset>
+                    <div>
+                        <input type="radio" name="html" id="yes">
+                        <label for="yes">Yes</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="html" id="no">
+                        <label for="no">No!</label>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <br>
+        <hr>
+
+        <section class="select">
+
+            <form action="url_to_send" method="post">
+                <fieldset>
+                    <p>
+                        HTML provides us with the select element for creating select boxes. These are typically used
+                        when you
+                        have a
+                        long list of options and you want the user to select only one. Some common examples include
+                        lists of
+                        countries,
+                        addresses, and year of birth. Inside the select element, you provide a list of options inside of
+                        an
+                        option
+                        element.</p>
+
+                    <label for="countries">Country:</label><br />
+                    <select id="countries">
+                        <option value="england">England</option>
+                        <option value="scotland">Scotland</option>
+                        <option value="ireland">Ireland</option>
+                        <option value="wales">Wales</option>
+                    </select>
+                </fieldset>
+            </form>
+        </section>
+
+        <hr>
+        <br>
+
+        <section class="button">
+            <fieldset>
+                <p>The button element requires a type attribute that can have three different values. Firstly, the
+                    button
+                    value, which has no default behavior; the "reset" value, which, once clicked, will reset all form
+                    values; and finally, the "submit" value, which will submit the form once clicked.</p>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </section>
+
+
+
 
 </body>
 
