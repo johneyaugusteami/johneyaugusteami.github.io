@@ -24,6 +24,7 @@ h2.name-hdr {
     color: white;
     display: flex;
     flex-wrap: wrap;
+    font-size: 150%;
 }
 
 h2.name-hdr::after {
