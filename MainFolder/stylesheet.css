@@ -28,13 +28,27 @@ h2.name-hdr {
 }
 
 h2.name-hdr::after {
-    background: linear-gradient(90deg, #ff40d6, #4604fc);
+    background: rgb(131, 58, 180);
+    background: linear-gradient(119deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.6530987394957983) 50%, rgba(252, 176, 69, 1) 100%);
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     height: 2px;
     width: 12%;
+}
+
+span.j::first-letter {
+    color: rgb(110, 19, 172);
+
+}
+
+span.a1::first-letter {
+    color: rgba(253, 29, 29, 0.925);
+}
+
+span.a2::first-letter {
+    color: rgb(252, 157, 25);
 }
 
 h3 {
@@ -116,7 +130,8 @@ div.bio:hover {
 
 
 body {
-    background-image: linear-gradient(90deg, #ff40d6, #4604fc);
+    background: rgb(131, 58, 180);
+    background: linear-gradient(119deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 0.6530987394957983) 50%, rgba(252, 176, 69, 1) 100%);
     font-family: 'Play', sans-serif;
 
 }
