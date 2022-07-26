@@ -131,7 +131,7 @@ img.cloud4 {
     margin: 0;
     padding: 0;
     position: absolute;
-    left: 33%;
+    left: 39%;
     top: 59%;
     z-index: -1;
 
@@ -142,7 +142,7 @@ img.cloud5 {
     margin: 0;
     padding: 0;
     position: absolute;
-    left: 35%;
+    left: 32%;
     top: 18%;
     z-index: -1;
 
@@ -154,8 +154,17 @@ img.cloud2 {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: -1%;
-    left: 10%;
+    top: -3.5%;
+    left: -3%;
+}
+
+img.cloud7 {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: -9.6%;
+    left: 80%;
 }
 
 img.cloud6 {
