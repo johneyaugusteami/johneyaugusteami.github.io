@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1658050206983-079c752b5752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzMXxpVUlzblZ0akIwWXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 500%;
+    color: rgb(255, 255, 255);
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+button {
+    height: 200px;
+    width: 600px;
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0px;
+    background-image: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    background-image: url(https://images.unsplash.com/photo-1657564420199-fb0cc42a2991?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0MXxpVUlzblZ0akIwWXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    font-size: 500%;
+    font-weight: bolder;
+}
+
+a {
+    color: rgb(247, 0, 255);
+    position: absolute;
+    top: 5%;
+    left: 90%;
+}

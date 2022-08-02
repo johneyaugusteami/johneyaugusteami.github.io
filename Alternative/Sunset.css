@@ -1,0 +1,188 @@
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ \\\\\\\\\\\\\\\\\\\\\\\\BODY\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+body {
+    background: rgb(255, 102, 51);
+    background: linear-gradient(180deg, rgba(255, 102, 51, 1) 0%, rgba(255, 102, 102, 1) 33%, rgba(255, 102, 153, 1) 72%, rgba(255, 102, 204, 1) 100%);
+    filter: blur(10%);
+    position: relative;
+    width: 100%;
+}
+
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\ HEADER \\\\\\\\\\\\\\\\ */
+
+header {
+    opacity: 85%;
+}
+
+
+/* //////////////////////////////////
+////////////NAV//////////////////*/
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1517384084767-6bc118943770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80), url(https://images.unsplash.com/photo-1554779147-a2a22d816042?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHdhdmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -1%;
+    background-blend-mode: multiply;
+}
+
+.nav-header {
+    color: #ffffff;
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links {
+    margin-right: 4%;
+}
+
+.nav-a {
+    color: #d2ffff;
+    font-weight: bolder;
+}
+
+.nav-a:hover,
+.nav-a:active {
+    color: #00FF00;
+
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\VECTORS\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.leaf-top1 {
+    position: absolute;
+    top: 3%;
+    left: -15%;
+    transform: rotate(90deg);
+    z-index: -1;
+    width: 60%;
+    background-blend-mode: lighten;
+}
+
+.leaf-top2 {
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+    z-index: -1;
+    width: 60%;
+    background-blend-mode: lighten;
+}
+
+/* ////////////////////////////////////////////////
+\\\\\\\\\\\\\\\\MAIN\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+
+}
+
+/* /////////////////////////////
+//////////TOP-SECTION//////////////*/
+
+.top-section {
+    display: flex;
+}
+
+
+.about-me {
+    background-color: #2d854d;
+    background-image: url(https://images.unsplash.com/photo-1581340752304-a781f821e8ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGltZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-blend-mode: multiply;
+    display: flex;
+    opacity: 75%;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 3%;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.skills {
+    background-color: #2d854d;
+    background-image: url(https://images.unsplash.com/photo-1581340752304-a781f821e8ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGltZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-blend-mode: multiply;
+    display: flex;
+    opacity: 75%;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 3%;
+    width: 20%;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\WORK-SECTION\\\\\\\\\\\\\\*/
+
+.work-section {
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.work-heading {
+    color: white;
+    margin-bottom: -1%;
+}
+
+.work-div {
+    background-image: url(https://images.unsplash.com/photo-1581340752304-a781f821e8ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGltZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-color: #2d854d;
+    background-blend-mode: multiply;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 2%;
+    padding: 1%;
+}
+
+
+
+/* ////////////////////////////////////////
+///////////////EDUCATION-SECTION//////////////////////*/
+
+.education-section {
+    background-image: url(https://images.unsplash.com/photo-1581340752304-a781f821e8ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGltZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2d854d;
+    border-radius: 20px;
+    padding: 2%;
+    color: white;
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+.education-heading {
+    color: white;
+}

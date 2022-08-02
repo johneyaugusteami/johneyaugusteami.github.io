@@ -359,17 +359,3 @@ h1.coming-soon {
 h1.coming-soon:hover {
     background-color: #333
 }
-
-
-
-/* 50px of padding applied in all directions: padding: 50px; */
-
-/* 50px of padding applied vertically and 0px applied horizontally: padding: 50px 0; */
-
-/* 10px of padding applied to the top: padding-top: 10px; */
-
-/* 10px of padding applied to the right: padding-right: 10px; */
-
-/* 10px of padding applied to the bottom: padding-bottom: 10px; */
-
-/* 10px of padding applied to the left: padding-left: 10px; */
