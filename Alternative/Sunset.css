@@ -8,6 +8,7 @@ body {
     filter: blur(10%);
     position: relative;
     width: 100%;
+    font-family: 'Bad Script', cursive;
 }
 
 
